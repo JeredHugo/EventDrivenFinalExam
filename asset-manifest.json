@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EventDrivenFinalExam/static/css/main.f597902d.css",
+    "main.js": "/EventDrivenFinalExam/static/js/main.01224020.js",
+    "index.html": "/EventDrivenFinalExam/index.html",
+    "main.f597902d.css.map": "/EventDrivenFinalExam/static/css/main.f597902d.css.map",
+    "main.01224020.js.map": "/EventDrivenFinalExam/static/js/main.01224020.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f597902d.css",
+    "static/js/main.01224020.js"
+  ]
+}
