@@ -1,0 +1,77 @@
+/* StockManagement.css */
+
+.stock-management-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .stock-management-form {
+    background-color: #001f3f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #dde3e8;
+    width: 300%;
+    height: 100vh;
+  }
+  
+  .stock-management-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .stock-management-form select,
+  .stock-management-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .stock-management-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stock-management-form button:hover {
+    background-color: #555;
+  }
+  
+  .stock-management-form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+ 
+  .stock-management-form button.update {
+    background-color: #28a745;
+  }
+  
+  .stock-management-form button.update:hover {
+    background-color: #218838;
+  }
+  
+  .stock-management-form button.delete {
+    background-color: #dc3545;
+  }
+  
+  .stock-management-form button.delete:hover {
+    background-color: #c82333;
+  }
+
+  
+  .arrow-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #001f3f;
+  }

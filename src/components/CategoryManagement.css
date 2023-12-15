@@ -1,0 +1,97 @@
+/* CategoryManagement.css */
+.category-management {
+  background-color: #001f3f; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: #dde3e8; 
+  height: 100vh; 
+  width: 299%; 
+  overflow-y: auto; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.input-form {
+  width: 80%;
+  max-width: 800px;
+  background-color: #001f3f;
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; 
+}
+
+.category-management form {
+  margin-bottom: 20px;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.category-management label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.category-management input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.category-management button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-management button:hover {
+  background-color: #555;
+}
+
+.category-list {
+  width: 80%;
+  max-width: 800px;
+}
+
+.category-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.category-list th,
+.category-list td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.category-list th {
+  background-color: #333;
+  color: #fff;
+}
+
+.category-list button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-list button.delete-btn {
+  background-color: #dc3545;
+}
+
+.category-list button:hover {
+  background-color: #555;
+}
+

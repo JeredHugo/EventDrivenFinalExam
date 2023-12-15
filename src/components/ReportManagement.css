@@ -1,0 +1,32 @@
+/* ReportManagement.css */
+.report-management {
+    margin: 20px;
+}
+
+.report-table-container {
+    width: 100%;
+    margin: auto;
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.report-table th, .report-table td {
+    border: 2px solid #dddddd; 
+    padding: 16px; 
+    text-align: left;
+    font-size: 18px; 
+}
+
+.report-table th {
+    background-color: #1a517f;
+    color: #ffffff;
+}
+
+.report-table tbody tr:hover {
+    background-color: #707677;
+    color: #ffffff;
+}

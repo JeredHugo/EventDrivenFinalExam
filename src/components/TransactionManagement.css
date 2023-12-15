@@ -1,0 +1,71 @@
+.transaction-management {
+  background-color: #001f3f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: #dde3e8;
+  width: 300%;
+  height: 100vh;
+}
+
+.transaction-management label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.transaction-management select,
+.transaction-management input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.transaction-management button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction-management button:hover {
+  background-color: #555;
+}
+
+.transaction-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-management th,
+.transaction-management td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transaction-management th {
+  background-color: #333;
+  color: #fff;
+}
+
+.transaction-management button.update {
+  background-color: #28a745; 
+}
+
+.transaction-management button.update:hover {
+  background-color: #218838;
+}
+
+.transaction-management button.delete {
+  background-color: #dc3545; 
+}
+
+.transaction-management button.delete:hover {
+  background-color: #c82333;
+}

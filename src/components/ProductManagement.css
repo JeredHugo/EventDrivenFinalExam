@@ -1,0 +1,125 @@
+/* ProductManagement.css */
+.product-management {
+  background-color: #001f3f; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: #dde3e8; 
+  height: 100vh; 
+  width: 235%; 
+  overflow-y: auto; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.form-container {
+  width: 80%;
+  max-width: 800px;
+  background-color: #001f3f; 
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; 
+}
+
+.product-management form {
+  margin-bottom: 20px;
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.product-management label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.product-management input,
+.product-management select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-management button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-management button:hover {
+  background-color: #555;
+}
+
+.product-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-management th,
+.product-management td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.product-management th {
+  background-color: #333;
+  color: #fff;
+}
+
+.product-management button.update {
+  background-color: #28a745; 
+}
+
+.product-management button.update:hover {
+  background-color: #218838;
+}
+
+.product-management button.delete {
+  background-color: #dc3545;
+}
+
+.product-management button.delete:hover {
+  background-color: #c82333;
+}
+
+.product-management .modal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.product-management .modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.product-management .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.product-management .display-block {
+  display: block;
+}
+
+.product-management .display-none {
+  display: none;
+}
